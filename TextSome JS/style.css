@@ -5,7 +5,14 @@
 }
 
 body{
-    background-image: linear-gradient(45deg , crimson, rgba(176, 89, 161, 0.655), crimson, rgba(176, 89, 161, 0.655),  crimson, rgba(176, 89, 161, 0.655) );
+    /* background-image: linear-gradient(45deg , crimson, rgba(176, 89, 161, 0.655), crimson, rgba(176, 89, 161, 0.655),  crimson, rgba(176, 89, 161, 0.655) ); */
+    background: #9796f0;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fbc7d4, #9796f0);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 h5{
@@ -43,7 +50,7 @@ textarea{
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
-    padding: 5px;
+    padding: 15px;
     border-radius: 8px;
 }
 
@@ -56,10 +63,28 @@ button{
     padding: 10px 25px;
     margin: 10px;
     border-radius: 30px;
+    color: #fff;
     border: none;
+    cursor: pointer;
     box-shadow: 0.7px 0 4px;
-    background-image: linear-gradient(to right, crimson, rgb(176, 89, 161));
-    text-align: center;
+    /* background-image: linear-gradient(to right, crimson, rgb(176, 89, 161));
+    text-align: center; */
+    background: #DA22FF;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #9733EE, #DA22FF);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        transition: all 0.5s ease;
+}
+
+button:hover{
+    background: #9733EE;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #DA22FF, #9733EE);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #DA22FF, #9733EE);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 hr{
@@ -69,6 +94,11 @@ hr{
 p{
     padding: 40px;
     text-align: center;
+    width: 90%;
+    margin: auto;
+    background-color: #333;
+    color: #fff;
+    max-width: 800px;
 }
 
 h3, h4{

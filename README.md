@@ -1,3 +1,5 @@
 # TextSome
-It is a website in which one can play around with the text, manipulate and count the number of characters.
-![SS_TextSome](https://user-images.githubusercontent.com/87596690/181826466-faf7ff7a-37c8-4ff4-a9d1-6d16d70d2fa7.png)
+It is a website in which one can play around with the text, manipulate and count the number of characters. 
+
+![image](https://user-images.githubusercontent.com/87596690/207311549-3fbfe94f-75af-4d88-9c1e-58fb5ba96387.png)
+
